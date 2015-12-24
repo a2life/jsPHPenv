@@ -1,0 +1,16 @@
+{
+    "name": "sitepoint/guestbook",
+    "description": "A guestbook app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dutch Adachi",
+            "email": "dutch@adachis.info"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^3.0",
+        "catfan/medoo": "^1.0"
+    }
+}

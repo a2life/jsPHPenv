@@ -5,12 +5,14 @@ cpus: 1
 provider: virtualbox
 
 folders:
-    - map: .
+    - map: d:/Documents/My Web Sites/homestead_improved
       to: /home/vagrant/Code
 
 sites:
     - map: homestead.app
       to: /home/vagrant/Code/Project/public
+    - map: guestbook.app
+      to: /home/vagrant/Code/guestbook/public
 
 databases:
     - homestead
