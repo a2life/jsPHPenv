@@ -91,7 +91,7 @@ class Comment
             'name'=>$this->getName(),
             'email'=> $this->getEmail(),
             'comment' => $this->getComment(),
-            'submissinDate' => $this->getSubmissionDate()
+            'submissionDate' => $this->getSubmissionDate()
             ]);
         }
         throw new \Exception("Failed to save!");
