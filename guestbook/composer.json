@@ -9,6 +9,12 @@
             "email": "dutch@adachis.info"
         }
     ],
+    
+    "autoload": {
+        "psr-4": {
+            "SitePoint\\": "src"
+        }
+    },
     "require": {
         "symfony/var-dumper": "^3.0",
         "catfan/medoo": "^1.0"
