@@ -1,3 +1,5 @@
 vendor/*
 composer.lock
 storage/*
+
+database.local.db
