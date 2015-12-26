@@ -17,6 +17,7 @@
     },
     "require": {
         "symfony/var-dumper": "^3.0",
-        "catfan/medoo": "^1.0"
+        "catfan/medoo": "^1.0",
+        "particle/validator": "^2.0"
     }
 }
